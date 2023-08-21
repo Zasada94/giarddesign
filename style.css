@@ -32,4 +32,38 @@
 
 #searchForm.active {
   display: block;
+}
+
+.carouselWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 500px;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+}
+
+.carousel-item {
+  overflow: hidden;
+}
+
+.mainImg {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.mainImg img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  position: sticky;
+}
+
+.info img {
+  padding-right: 64px;
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */

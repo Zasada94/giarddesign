@@ -27,3 +27,30 @@
 #searchForm.active {
 	display: block;
 }
+
+.carouselWrapper {
+	display: flex;
+	height: 500px;
+	width: 100%;
+	align-items: center;
+	overflow: hidden;
+}
+
+.carousel-item {
+	overflow: hidden;
+}
+
+.mainImg {
+	flex-grow: 1;
+}
+.mainImg img {
+	object-fit: cover;
+	width: 100%;
+	position: sticky;
+
+}
+
+.info img {
+	padding-right: 64px;
+	width: 100%;
+}
