@@ -16,7 +16,20 @@
           justify-content: right;
 }
 
-.navbar {
+.container {
   max-width: 1262px;
   margin: 0 auto;
+  overflow: hidden;
+}
+
+#searchIcon {
+  cursor: pointer;
+}
+
+#searchForm {
+  display: none;
+}
+
+#searchForm.active {
+  display: block;
 }/*# sourceMappingURL=style.css.map */
